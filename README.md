@@ -133,7 +133,7 @@ DHCP is disabled on LAN and OPT1 because DHCP is already handled at the VirtualB
 
 ## Firewall Rule Validation
 
-Firewall rules are created to demonstrate how traffic is permitted or denied. ICMP traffic is initially blocked between the Ubuntu and Windows systems to confirm that firewall enforcement is working correctly.
+Firewall rules are implemented to demonstrate how traffic is explicitly permitted or denied by policy. ICMP traffic is initially blocked between the Ubuntu and Windows systems to verify that firewall enforcement and logging operate as intended. An additional rule is then introduced to allow ICMP traffic between the same systems, confirming that traffic behavior is correctly controlled and immediately updated based on defined firewall rules.
 
 The screenshots below show:
 - The firewall rule configuration  

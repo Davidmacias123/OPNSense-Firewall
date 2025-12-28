@@ -143,6 +143,8 @@ The screenshots below show:
 <img width="1908" height="913" alt="image" src="https://github.com/user-attachments/assets/49e7c659-3145-49c9-85cc-eda7a4b3add9" />
 <img width="1185" height="773" alt="command is working i cant ping windows" src="https://github.com/user-attachments/assets/09f9da66-6cf9-4c56-a534-be2fae21229c" />
 <img width="1907" height="917" alt="how to see all the block stuff on the firewall and you know the firewall rule is working" src="https://github.com/user-attachments/assets/395607da-e624-47f3-ad39-d54b4dba0c4c" />
+<img width="1910" height="917" alt="image" src="https://github.com/user-attachments/assets/c3b41830-718e-4cef-8835-80f03a525c6c" />
+<img width="1916" height="696" alt="image" src="https://github.com/user-attachments/assets/34ecc61d-8793-4c33-ae9b-702535ba3880" />
 
 ---
 

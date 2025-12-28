@@ -2,7 +2,7 @@
 # OPNsense Firewall & IDS & Wireshark
 
 ## Project Overview
-This repository documents the full deployment and configuration of a Purple Team security lab using **OPNsense**. The environment is designed to simulate real-world enterprise network security operations, including firewall enforcement, network segmentation, intrusion detection, attack simulation, and forensic traffic analysis.
+This repository documents the full deployment and configuration of a Purple Team security lab using OPNsense. The environment is designed to simulate real-world enterprise network security operations, including firewall enforcement, network segmentation illustrated with a draw.io diagram, attack simulation validated through Cisco Packet Tracer to provide clear visibility into traffic flow, intrusion detection, the development of a custom IDS rule to detect Nmap stealth scanning activity, and forensic network traffic analysis.
 
 The lab focuses on understanding how traffic flows through a firewall, how security rules affect that traffic, how intrusion detection systems identify malicious behavior, and how packet-level evidence validates security events. Each configuration step is visually documented to clearly show what is occurring within the environment.
 

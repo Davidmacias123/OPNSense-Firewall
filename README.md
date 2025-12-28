@@ -65,6 +65,9 @@ After creating the virtual machine, the network settings are configured. Three a
 
 Promiscuous Mode is set to **Allow All** on all adapters. This is required so that the Intrusion Detection System can observe and analyze all packets passing through the firewall interfaces.
 
+<img width="1512" height="687" alt="image" src="https://github.com/user-attachments/assets/b1ab1cc9-3504-4f51-b00f-0186e46332ff" />
+
+
 Two separate host-only networks are created, each using a different subnet. This separation is critical because it allows routing rules, firewall rules, and IDS rules to be properly tested and validated.
 
 The screenshot below shows the two host-only adapters configured with different network ranges.

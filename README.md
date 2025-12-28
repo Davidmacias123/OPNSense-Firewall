@@ -133,12 +133,16 @@ DHCP is disabled on LAN and OPT1 because DHCP is already handled at the VirtualB
 
 ## Firewall Rule Validation
 
-Firewall rules are implemented to demonstrate how traffic is explicitly permitted or denied by policy. ICMP traffic is initially blocked between the Ubuntu and Windows systems to verify that firewall enforcement and logging operate as intended. An additional rule is then introduced to allow ICMP traffic between the same systems, confirming that traffic behavior is correctly controlled and immediately updated based on defined firewall rules.
+A subsequent LAN firewall rule is created to explicitly allow ICMP traffic between the Ubuntu and Windows systems, establishing a baseline for permitted communication. Firewall rules are then implemented to demonstrate explicit traffic control and policy enforcement by introducing an initial deny rule. ICMP traffic is blocked to validate that the firewall correctly enforces policy and generates corresponding log entries, as shown by failed ping attempts and deny logs. The allow rule is re-applied, resulting in successful ICMP responses and firewall log entries confirming that traffic is permitted, demonstrating that policy changes are enforced accurately and immediately.
 
-The screenshots below show:
-- The firewall rule configuration  
-- The failed ping attempt  
-- The firewall log entries confirming the block  
+The screenshots below illustrate the full lifecycle of firewall rule enforcement and validation:
+
+The initial firewall rule configuration that blocks ICMP traffic on the LAN interface
+The creation of an additional LAN firewall rule allowing ICMP traffic from Ubuntu to the Windows Server
+A failed ping attempt from the Ubuntu system to the Windows Server, confirming the block rule is active
+Firewall log entries showing ICMP traffic being denied by the configured rule
+A successful ping attempt after the allow rule is applied, demonstrating restored connectivity
+Firewall log entries confirming that ICMP traffic is now permitted according to the updated firewall policy
 
 <img width="1908" height="913" alt="image" src="https://github.com/user-attachments/assets/49e7c659-3145-49c9-85cc-eda7a4b3add9" />
 <img width="1185" height="773" alt="command is working i cant ping windows" src="https://github.com/user-attachments/assets/09f9da66-6cf9-4c56-a534-be2fae21229c" />

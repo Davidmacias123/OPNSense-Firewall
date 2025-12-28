@@ -135,7 +135,7 @@ DHCP is disabled on LAN and OPT1 because DHCP is already handled at the VirtualB
 
 A subsequent LAN firewall rule is created to explicitly allow ICMP traffic between the Ubuntu and Windows systems, establishing a baseline for permitted communication. Firewall rules are then implemented to demonstrate explicit traffic control and policy enforcement by introducing an initial deny rule. ICMP traffic is blocked to validate that the firewall correctly enforces policy and generates corresponding log entries, as shown by failed ping attempts and deny logs. The allow rule is re-applied, resulting in successful ICMP responses and firewall log entries confirming that traffic is permitted, demonstrating that policy changes are enforced accurately and immediately.
 
-The screenshots below illustrate the full lifecycle of firewall rule enforcement and validation:
+# The screenshots below illustrate the full lifecycle of firewall rule enforcement and validation:
 
 The initial firewall rule configuration that blocks ICMP traffic on the LAN interface
 The creation of an additional LAN firewall rule allowing ICMP traffic from Ubuntu to the Windows Server
@@ -143,7 +143,7 @@ A failed ping attempt from the Ubuntu system to the Windows Server, confirming t
 Firewall log entries showing ICMP traffic being denied by the configured rule
 A successful ping attempt after the allow rule is applied, demonstrating restored connectivity
 Firewall log entries confirming that ICMP traffic is now permitted according to the updated firewall policy
-
+<img width="1580" height="827" alt="only editing this on the firewall to give opt access" src="https://github.com/user-attachments/assets/a5b7d6dc-8cc7-4e84-93ca-2b9803e0cd11" />
 <img width="1908" height="913" alt="image" src="https://github.com/user-attachments/assets/49e7c659-3145-49c9-85cc-eda7a4b3add9" />
 <img width="1185" height="773" alt="command is working i cant ping windows" src="https://github.com/user-attachments/assets/09f9da66-6cf9-4c56-a534-be2fae21229c" />
 <img width="1907" height="917" alt="how to see all the block stuff on the firewall and you know the firewall rule is working" src="https://github.com/user-attachments/assets/395607da-e624-47f3-ad39-d54b4dba0c4c" />

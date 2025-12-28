@@ -1,5 +1,5 @@
 
-# OPNsense Firewall & IDS – Purple Team Lab
+# OPNsense Firewall & IDS & Wireshark
 
 ## Project Overview
 This repository documents the full deployment and configuration of a Purple Team security lab using **OPNsense**. The environment is designed to simulate real-world enterprise network security operations, including firewall enforcement, network segmentation, intrusion detection, attack simulation, and forensic traffic analysis.

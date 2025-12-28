@@ -17,7 +17,7 @@ The purpose of this lab is to demonstrate:
 - Creation and validation of firewall access control rules  
 - Deployment and tuning of the Suricata Intrusion Detection System  
 - Detection of reconnaissance activity using both default and custom IDS rules  
-- Forensic packet capture and analysis to confirm attack behavior  
+- Forensic packet capture, wireshark and analysis to confirm attack behavior  
 
 This lab mirrors workflows commonly used by SOC analysts, security engineers, and blue team operators.
 

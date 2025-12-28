@@ -135,7 +135,7 @@ DHCP is disabled on LAN and OPT1 because DHCP is already handled at the VirtualB
 
 A subsequent LAN firewall rule is created to explicitly allow ICMP traffic between the Ubuntu and Windows systems, establishing a baseline for permitted communication. Firewall rules are then implemented to demonstrate explicit traffic control and policy enforcement by introducing an initial deny rule. ICMP traffic is blocked to validate that the firewall correctly enforces policy and generates corresponding log entries, as shown by failed ping attempts and deny logs. The allow rule is re-applied, resulting in successful ICMP responses and firewall log entries confirming that traffic is permitted, demonstrating that policy changes are enforced accurately and immediately.
 
-# The screenshots below illustrate the full lifecycle of firewall rule enforcement and validation:
+The screenshots below illustrate the full lifecycle of firewall rule enforcement and validation:
 
 The initial firewall rule configuration that blocks ICMP traffic on the LAN interface
 The creation of an additional LAN firewall rule allowing ICMP traffic from Ubuntu to the Windows Server

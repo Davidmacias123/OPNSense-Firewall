@@ -1,6 +1,8 @@
 # OPNSense-Firewall
 Architected a Purple Team lab using OPNsense, creating custom firewall and IDS rules with Suricata. Simulated Nmap attacks and validated detections through live logs and packet capture analysis.
 
+
+I added my diagram of this project of what is exactly that is going on with this project so you have an idea how everything is working. I also created a packet tracer as well as a simulation or an idea what is going on so you are able to visualize and have an idea what this project is about.
 We will be creating our own using opnsense. you will need to download OPNSENSE ISO on this link https://opnsense.org/download/. once you successfully dowloaded you will need to create  a virtual machine. on the part where it says ISO Image you will need to put the ISO of the firewall. For operating system is BSD and OS Distribution is FreeBSD.
 
 <img width="1918" height="1078" alt="creating virtual machine" src="https://github.com/user-attachments/assets/fc25432e-8fd2-45d7-8258-5a65ccd26e58" />
